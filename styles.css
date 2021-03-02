@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #f1fafa;
+    color: #424242;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    border-top: 1px solid  #cfe4e4;
+    margin: auto;
+    width: 85%;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+ul {
+    list-style-position: inside;        /*odrážka na pozici před textem*/
+}
+
+header, footer {
+    margin: 30px;
+    text-align: center;
+}
+
+#photo{
+    display: block;
+    width: 250px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 1px 1px 5px #c9ffff, 1px 10px 15px #bdc4c4;
+}
+
+section {
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#certificate ul {
+    list-style-type: none;       
+}
+
+#certificateJS {
+    width: 600px;
+}
+
+#curently {
+    margin-bottom: 10px;
+}
+
+.fa {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
